@@ -46,7 +46,7 @@ export default function About() {
                 <img
                   src="assets/images/aboutme.jpg"
                   className="img-fluid rounded-end"
-                  
+                  alt=""
                 />
               </div>
               {/* Left Section - Text */}

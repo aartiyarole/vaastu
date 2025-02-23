@@ -63,7 +63,7 @@ export default function Home() {
                   <img
                     src="assets/images/profile-main.jpg"
                     className="img-fluid rounded-end"
-                    
+                    alt=""
                   />
                 </div>
               </div>
