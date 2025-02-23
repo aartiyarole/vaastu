@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 
 const Contact = () => {
-  const toastRef = useRef(null);
+ 
   const [contactFormValues, setContactFormValues] = useState({
     name: "",
     contact: "",
