@@ -4,7 +4,7 @@ import About from "./About";
 import Projects from "./Projects";
 import ProjectDrawings from "./ProjectDrawings";
 import Contact from "./Contact";
-
+import {Link} from 'react-router-dom'
 export default function Home() {
   const typedElement = useRef(null); // Create a ref for the span element
   const typedInstance = useRef(null); // Store Typed instance for cleanup
@@ -54,9 +54,10 @@ export default function Home() {
                     <div className="typing-class">
                       <span ref={typedElement}></span>
                     </div>
-                    <a href="/our-services" className="btn btn-primary">
-                      Our Services
-                    </a>
+                    <Link className="btn btn-primary" to="/our-services">
+                    Our Services
+                    </Link>
+                    
                   </div>
                 </div>
                 <div className="col-md-6">
